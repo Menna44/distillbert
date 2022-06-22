@@ -30,7 +30,7 @@ The following hyperparameters were used during training:
 - optimizer: AdamW(lr=1e-5 and epsilon=1e-08)
 - lr_scheduler_type: linear
 - lr_scheduler_warmup_steps: 0
-- num_epochs: 5
+- num_epochs: 2
 ### Training results
 | Training Loss | Epoch |  Validation Loss | f1 score   |
 |:-------------:|:-----:|:---------------: |:------:|
