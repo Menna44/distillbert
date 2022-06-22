@@ -12,7 +12,7 @@ model-index:
 This model is a fine-tuned version of [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased) on the adult_content dataset.
 It achieves the following results on the evaluation set:
 - Loss: 0.0065
-- F1_score(weighted): 0.99
+- F1_score(weighted): 0.90
 ### Model description
  More information needed
 ### Intended uses & limitations
@@ -34,8 +34,5 @@ The following hyperparameters were used during training:
 ### Training results
 | Training Loss | Epoch |  Validation Loss | f1 score   |
 |:-------------:|:-----:|:---------------: |:------:|
-| 0.0065        | 1.0   | 0.0669           | 0.9880 |
-| 0.0429        | 2.0   | 0.0530           | 0.9907 |
-| 0.0177        | 3.0   | 0.0305           | 0.9933 |
-| 0.0123        | 4.0   | 0.0362           | 0.9933 |
-| 0.0065        | 5.0   | 0.0176           | 0.9960 |
+| 0.1414        | 1.0   | 0.4585           | 0.9058 |
+| 0.1410        | 2.0   | 0.4584           | 0.9058 |
